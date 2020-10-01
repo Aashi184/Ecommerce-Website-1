@@ -50,13 +50,13 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Sorts Mill Goudy", serif;
+  font-family: "Sorts Mill Goudy", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-image:linear-gradient(180deg,#1e574b ,#a7e0d5 ); }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -97,7 +97,8 @@ ol ol,
 ul ul,
 ol ul,
 ul ol {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 dt {
   font-weight: 700; }
@@ -7883,5 +7884,22 @@ h4 {
   height: 100vh;
   background: url(images/testimonial-imgtom-sodoge.jpg) no-repeat center;
   background-size: cover; }
+
+#footer{	
+	position: fixed;
+	bottom: 0px;
+	border-top: 1px solid #ccc;
+	height: 30px;
+	background-color: #eee;
+	width: 100%;
+	padding-top: .8em; 
+}
+#search_box{
+	border:  1px solid #737373;
+	display: inline-block;
+	margin-top: .15em;
+	border-radius: 7px;
+	padding-right: .3em;
+}
 
 /*# sourceMappingURL=main.css.map */
